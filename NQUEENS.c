@@ -31,10 +31,7 @@ void print(int n)
     				printf("\tQ"); 
    			else
     				printf("\t-"); 
-  		}
-	}
-}
-
+		}}}
 int place(int row,int column)
 {
 	int i;
@@ -59,6 +56,4 @@ void queen(int row,int n)
     				print(n);
    			else
     				queen(row+1,n);
-  		}
-	}
-}
+		}}}
